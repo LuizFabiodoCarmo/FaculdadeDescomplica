@@ -1,0 +1,24 @@
+//IdadeseSenao07
+  //Transformando exercício com comando de decisão SE e SENAO "IdadeseSenao" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class IdadeseSenao{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+   //declaração de variáveis
+	int idade;
+	
+   //entrada de dados
+   Scanner ler = new Scanner(System.in);
+   System.out.println("Digite a idade: ");
+   idade = Integer.parseInt(console.nextLine());
+   if ((idade > 17 ) and (idade < 60) {
+      System.out.println("Idade Válida!: ");
+      } else {
+	   System.out.println("Idade Inválida: ");
+    }
+ }	
+}  

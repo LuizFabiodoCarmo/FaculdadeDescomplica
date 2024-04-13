@@ -1,0 +1,24 @@
+//Repita1a10-14
+  //Transformando exercício "Repita1a10" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class Repita1a10{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	int i = 1;
+	
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	do (i = 1) {
+      	 System.out.println("Digite o valor de I: ");
+		 System.out.print(i);
+		 i = i + 1;
+	 while ( i >= 10)
+  }
+ }
+}	

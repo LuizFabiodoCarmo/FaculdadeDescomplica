@@ -1,0 +1,22 @@
+//TiposDados17
+  //Transformando exercício "TiposDados" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class TiposDados{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	System.out.println("Tipo de Caractere/String: Luiz Fabio");
+	System.out.println("Tipo de Inteiro/Int: 30");
+	System.out.println("Tipo de Real/Double: 30.5");
+	System.out.println("Tipo de Booelano/Boolean: verdadeiro");
+	System.out.println("Tipo de Literal/Float: São Paulo, 07/03/2024 ");
+	
+
+ }	
+}	

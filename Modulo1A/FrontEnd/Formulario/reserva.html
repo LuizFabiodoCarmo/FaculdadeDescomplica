@@ -1,0 +1,126 @@
+<!-- Atividade Pratica 
+Título da Prática: Formulário de Reserva de Viagem Avançado -->
+
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lulu Viagens</title>
+</head>
+
+<body>
+    <header align="center">
+        <font size="5px">
+            <h1>Olá seja, bem vindo(a) à Lulu Viagens! </h1>
+            <h2>Nosso objetivo é te fazer viajar, literalmente!!</h2>
+
+            <br>
+            <h3>São mais de 10 anos proporcionando o melhor aos nossos clientes. <br>
+                confira alguns dos destinos preferidos por esse Brasil a fora!
+            </h3>
+            <br>
+            <p><strong>Porto de Galinhas</strong><br>  
+                <img src="img/Porto.webp" height="500px" alt=""></p>
+            <br>
+            <p><strong>Angra dos Reis</strong><br>
+                <img src="img/angra.jpg" height="500px" alt=""></p>
+            <br>
+            <p><strong>Praia Grande SP</strong><br>
+                 <img src="img/praiaG.jpg" height="500px" alt=""></p>
+            <br>
+            <p><strong>Rio de Janeiro</strong><br>
+                <img src="img/RJ.jpeg" height="500px" alt=""></p>
+            <br>
+            <p><strong>Salvador</strong>
+                <br><img src="img/salvador.png" height="500px" alt=""></p>
+            <br>
+            <p><strong>Chapada Diamantina</strong><br>
+                <img src="img/chapada.jpg" height="400px" alt=""></p>
+            
+
+            <hr style="height: 3px" color="green">
+            <hr style="height: 5px" color="green">
+            <hr style="height: 10px" color="green">
+            <section>
+                <h2>Faça sua reserva conosco!</h2>
+
+                <form action="" method="get" action="">
+                    <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <br>
+                    <label for=“sobrenome”>Sobrenome:</label><br>
+                    <input type=“text” id=“sobrenome” name=“sobrenome”>
+                    <br>
+                    <br>
+                    <label for="femail">Email</label><br>
+                    <input type="email" id="femail" email="email"><br>
+                    <br>
+                    <br>
+                    <label>Data de ida</label><br>
+                    <input type="date" name="dataIda"><br>
+                    <br>
+
+                    <label>Data de volta</label><br>
+                    <input type="date" name="dataVolta"><br>
+                    <br>
+                    <p>Destino</p>
+                    <select id=“destino” name=“destino”>
+                        <option value=“vazio”></option>
+                        <option value=“angra”>Angra dos Reis</option>
+                        <option value=“palio”>Porto de Galinhas</option>
+                        <option value=“salvador”>Salvador</option>
+                        <option value=“chapa”>Chapada diamantina</option>
+                        <option value=“praiag”>Praia Grade SP</option>
+                        <option value=“rj”>Rio de Janeiro</option>
+                    </select>
+                    <br>
+                    <p>Tipo de ascento</p>
+
+                    <select id=“tipos” name=“tipos”>
+                        <option value=“vazio”></option>
+                        <option value=“angra”>Padrão</option>
+                        <option value=“palio”>PCD</option>
+                        <option value=“salvador”>Premium</option>
+                        <option value=“chapa”>Executivo</option>
+                    </select>
+                    <br>
+                    <br>
+                    <p>Forma de pagamento</p>
+                    <select id=“pay” name=“pay”>
+                        <option value=“vazio”></option>
+                        <option value=“angra”>Débito</option>
+                        <option value=“palio”>Crédito</option>
+                        <option value=“salvador”>Pix</option>
+                        <option value=“chapa”>Boleto</option>
+                        <input type="submit" value="submit">
+                    </select>
+                    <br>
+                    <br>
+                    <label>Comentário</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    <button>Salvar</button>
+                    <br>
+                    <br>
+
+
+                </form>
+            </section>
+        </font>
+    </header>
+    <footer align="center">
+        <hr style="height: 10px" color="green">
+        <h4>Agradecemos à preferência!</h4>
+        <hr style="height: 10px" color="green">
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+//ParametrosMulti12
+  //Transformando exercício "ParametrosMulti" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class ParametrosMulti{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	int i, num;
+	int multi = 1;
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	do {  System.out.println("Digite um numero do tipo inteiro: ");
+         num = Integer.parseInt(console.nextLine());
+		 multi = multi * num;
+		 i = i + 1;
+      } while (i >= 2);
+	      System.out.println("Resultado da multiplicação dos dois números digitados: ");  
+
+ }	
+}	
+	

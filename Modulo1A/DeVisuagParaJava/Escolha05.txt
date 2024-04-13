@@ -1,0 +1,34 @@
+//Escolha05
+  //Transformando exercício com comando de decisão "Escolha" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+  public class Escolha{
+     
+	  public static void main (String[] args){
+	  Scanner entrada = new Scanner(System.in);
+	  
+	  //declaração de variáveis
+	  int Op;
+	  double Num, Resultado;
+	  
+	  //entrada de dados
+	   Scanner ler = new Scanner(System.in);
+       System.out.println("Opções");
+	   System.out.println("1 - Calcular o dobro do número");
+	   System.out.println("2 - Calcular o triplo do número");
+	   System.out.println("Escolha uma das opções: ");
+	   Op = Integer.parseInt(console.nextLine()); 
+	   System.out.println("Digte o número de sua escolha: ");
+	   Num = Double.parseDouble(console.nextLine());
+	   switch (Op) {
+             case 1:
+			  Resultado = Num*2;
+			  break;
+			 case 2:
+			  Resultado = Num*3;
+			  break;  
+	               }  
+	   System.out.println(Resultado); 
+  }	  
+}  

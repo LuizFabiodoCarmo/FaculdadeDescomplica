@@ -1,0 +1,24 @@
+//NumeroMaior09
+  //Transformando exercício com comando de decisão SE "NumeroMaior" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class NumeroMaior{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	double num1, num2;
+	
+	//entrada de dados
+   Scanner ler = new Scanner(System.in);
+   System.out.println(Escreva um número);
+   num1 = Double.parseDouble(console.nextLine()); 
+   System.out.println(Escreva um número);
+   num2 = Double.parseDouble(console.nextLine());
+   if (num1 > num2) {
+      System.out.println(O primeiro número é maior);
+  }
+ } 
+}

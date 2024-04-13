@@ -1,0 +1,21 @@
+//Para1ate10-11
+  //Transformando exercício "Para1ate10" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class Para1ate10{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	int i;
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	for (i = 1; i <= 10;) {
+	    i = Integer.parseInt(console.nextLine());
+	
+  }
+ }
+}	

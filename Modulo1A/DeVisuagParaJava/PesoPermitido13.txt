@@ -1,0 +1,24 @@
+//PesoPermitido13
+  //Transformando exercício "PesoPermitido" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class PesoPermitido{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	double peso;
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	System.out.println("Digite um valor: ");
+	peso  = Double.parseDouble(console.nextLine()); 
+	if (peso >= 1) and (peso <= 100){
+        System.out.println("Peso permitido.");
+    } else {
+        System.out.println("Este peso não está permitido.");
+  }
+ }
+}	

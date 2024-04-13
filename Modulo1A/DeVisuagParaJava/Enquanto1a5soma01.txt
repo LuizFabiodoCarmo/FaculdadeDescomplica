@@ -1,0 +1,32 @@
+//Enquanto1a5soma01
+  //Transformando "Enquanto 1 a 5 Soma" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+  public class Enquanto1a5soma01{
+  
+   public static void main(String[] args){
+   
+   //declaração de variáveis
+   int soma, num = 0;
+   int i = 1;
+  
+   //entrada de dados
+   Scanner ler = new Scanner(System.in);
+   while(i = 5 ) {
+    System.out.println("Digite um número do tipo inteiro para a soma");
+    num = Integer.parseInt(console.nextLine());
+	soma = soma + num;
+	i = i + 1;
+   }
+    System.out.print("Resultado da soma: ");
+	System.out.println(soma);
+   
+   
+ 
+
+   
+   
+   
+   }  
+  }

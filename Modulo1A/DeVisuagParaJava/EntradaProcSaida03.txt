@@ -1,0 +1,34 @@
+//EntradaProcSaida03
+  //Transformando "EntradaProcessamentoSaída" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+  public class EntradaProcSaida03{
+     
+	  public static void main (String[] args){
+	  
+	   //declaração de variáveis
+	     float num1 = 0;
+		 float num2 = 0;
+		 float resultado;
+		  
+	  //entrada de dados
+	   Scanner ler = new Scanner(System.in);
+       System.out.printf("Informe o primeiro número:\n");
+       num1 = Float.parseFloat(console.nextLine());	   
+       System.out.printf("Informe o segundo número:\n");	   
+	   num2 = Float.parseFloat(console.nextLine());
+	   
+	   resultado = num1 * num2;
+	   
+	   System.out.println("Os números são:");
+	   System.out.println("Primeiro número digitado: ");
+	   System.out.print(num1);
+	   System.out.println("Segundo número digitado: ");
+	   System.out.print(num2);
+	   
+	  
+	}
+  
+  }
+  

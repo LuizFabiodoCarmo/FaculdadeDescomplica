@@ -1,0 +1,37 @@
+// "Primeiro programa java criado no Notepad++"
+
+// "Desenvolvimento de um programa java que
+//    Declara variáveis: inteira, real e caracter;
+//    Recebe essas informações pela linha de comando;
+//    Calcula a adição de dois números;
+//    Mostra essas informações pela linha de comando."
+
+
+
+//Programa01.java
+
+class Programa01
+{
+  public static void main (String entrada []) 
+   {
+     //declaração de variáveis
+	 int NumInt;
+	 double NumReal, soma;
+	 char Caracter;
+	 
+	 //entrada de dados
+	 NumInt = Integer.parseInt(entrada[0]);
+	 NumReal = Double.parseDouble(entrada[1]);
+	 Caracter = (entrada[2] .charAt(0));
+	 
+	 //processamento
+	 soma = (double)NumInt + NumReal;
+	 //saida de resultados
+	 System.out.println((double)NumInt + " + " +
+	 NumReal + " = " + soma + " sinal " + Caracter);
+	 
+	 System.exit(0);
+   }
+   
+  
+}   

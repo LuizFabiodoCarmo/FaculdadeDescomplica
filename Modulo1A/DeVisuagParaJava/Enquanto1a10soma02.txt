@@ -1,0 +1,22 @@
+//Enquanto1a10soma02
+  //Transformando "Enquanto 1 a 10 Soma" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+  public class Enquanto1a10soma02{
+  
+   public static void main(String[] args){
+   
+   //declaração de variáveis
+   int i = 1;
+   
+   //entrada de dados
+   Scanner ler = new Scanner(System.in);
+   while(i = 10) {
+    System.out.println("Valor de I: ");
+    System.out.println(i);
+	i = i + 1;
+     }
+   
+   }
+ }  

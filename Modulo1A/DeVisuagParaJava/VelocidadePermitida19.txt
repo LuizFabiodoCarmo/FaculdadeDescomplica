@@ -1,0 +1,24 @@
+//VelocidadePermitida19
+  //Transformando exercício "VelocidadePermitida" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class VelocidadePermitida{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	double z;
+	
+	//entrada de dados
+	System.out.println("Digite um valor: ");
+	z = Double.parseDouble(console.nextLine());
+	if(z >= 1) && (z <= 50){
+	   System.out.println("A velocidade está na faixa permitida."); 
+	} else {
+          System.out.println("A velocidade não está na faixa permitida."); 
+	
+  }
+ }
+}	

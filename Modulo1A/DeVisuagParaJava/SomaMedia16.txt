@@ -1,0 +1,36 @@
+//SomaMedia16
+  //Transformando exercício "SomaMedia" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class SomaMedia{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	string nomeAlg;
+    double resultadoMedia1, resultadoMedia2	
+	int resultadoSoma;
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	nomeAlg = "soma && Média";
+	resultadoSoma = 5 + 5 + 5;
+	resultadoMedia1 = (5 + 5 + 5)/3;
+	//Ou
+	resultadoSoma = 5 + 5 + 5;
+	resultadoMedia2 = resultadoSoma/3;
+	
+	System.out.println("Soma e média dos números 5,5 e 5");
+	System.out.println("Nome do Algoritmo: ");
+	System.out.println(nomeAlg);
+	System.out.println("Resultado da Soma: ");
+	System.out.println(resultadoSoma);
+	System.out.println("Resultado da média: ");
+	System.out.println(resultadoMedia1);
+	System.out.println("Resultado da média usando a variável resultadoSoma: ");
+	System.out.println(resultadoMedia2);
+	
+ }	
+}	

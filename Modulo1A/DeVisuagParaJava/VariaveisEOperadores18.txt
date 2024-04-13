@@ -1,0 +1,42 @@
+//VariaveisEOperadores18
+  //Transformando exercício "VariaveisEOperadores" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class VariaveisEOperadores{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	String nomeAlg;
+	int resultadoSoma, resultadoSub;
+	double resultadoMulti, resultadoDiv, resultadoExp1, resultadoExp2;
+	
+	//entrada de dados
+	Scanner ler = new Scanner(System.in);
+	nomeAlg = ""Aprendendo Variáveis && Operadores"";
+	resultadoSoma = 2 + 2;
+	resultadoSub = 10 - 2;
+	resultadoMulti = 2 * 2 . 3;
+	resultadoDiv = 10 / 5;
+	resultadoExp1 = 2 + 2 + 10 - 2 + 2 * 2 . 3 + 10 / 5;
+	resultadoExp2 = ( 2 + 2 + ( 10 - 2 + 2 ) * 2 . 3 + 10 / 5 );
+	
+	System.out.println("Nome do Algoritmo: ");
+	System.out.println(nomeAlg);
+	System.out.println("Resultado da Soma: ");
+	System.out.println(resultadoSoma);
+	System.out.println("Resultado da Subtração: ");
+	System.out.println(resultadoSub);
+	System.out.println("Resultado da Multiplicação: ");
+	System.out.println(resultadoMulti);
+	System.out.println("Resultado da Divisão: ");
+	System.out.println(resultadoDiv);
+	System.out.println("Resultado da Expressão 1: ");
+	System.out.println(resultadoExp1);
+	System.out.println("Resultado da Expressão 2: ");
+	System.out.println(resultadoExp2);
+	
+ }	
+}	

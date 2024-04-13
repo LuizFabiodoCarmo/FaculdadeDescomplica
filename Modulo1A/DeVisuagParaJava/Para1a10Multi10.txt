@@ -1,0 +1,27 @@
+//Para1a10Multi10
+  //Transformando exercício "Para1a10Multi" feito no VisualG em Java
+  
+  import java.util.Scanner;
+  
+   public class Para1a10Multi{
+     
+    public static void main (String[] args){
+	Scanner entrada = new Scanner(System.in);
+	
+	//declaração de variáveis
+	int i, num;
+	int multi = 1;
+	
+	//entrada de dados
+	for (i = 1; i <= 10;) {
+	   System.out.println("Digite um número do tipo inteiro; ");
+	   num = Integer.parseInt(console.nextLine());
+	   multi = multi*num;
+	   i = i + 1;
+  }
+   System.out.println("Resultado da Multiplicação dos cinco números digitados; ");
+   System.out.print(multi);
+   System.out.println("Obrigada por participar!");
+   
+ }
+}	
